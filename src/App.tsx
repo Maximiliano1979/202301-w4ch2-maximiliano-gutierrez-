@@ -1,3 +1,4 @@
+import Error from "./components/Error/Error";
 import Form from "./components/Form/Form";
 
 const App = (): JSX.Element => {
@@ -16,7 +17,7 @@ const App = (): JSX.Element => {
         </div>
       </div>
       <div className="row">
-        <p className="error text-danger col">Error</p>
+        <Error />
       </div>
     </div>
   );
